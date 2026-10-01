@@ -10,6 +10,4 @@ COPY . .
 
 EXPOSE 5000
 
-ENV PORT=5000
-
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
